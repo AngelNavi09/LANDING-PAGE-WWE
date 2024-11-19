@@ -1,0 +1,157 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("img/wwe.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #e0e0e0;
+    margin-top: 70px; /* Añadido para desplazar la imagen hacia abajo */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #1f1f1f; /* Color sólido */
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.logo {
+    height: 50px;
+}
+
+/* Sección de bienvenida */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: rgba(40, 40, 40, 0.8);
+    margin-top: 70px; /* Asegura que no se solape con el encabezado */
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #e60000;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* Sección de información del juego */
+.game-info {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #282828;
+    color: #e0e0e0;
+}
+
+.game-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.game-info p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Sección de categorías */
+.categories {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1f1f1f;
+}
+
+.category-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category {
+    margin: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Sección de características */
+.features {
+    padding: 50px 20px;
+    background-color: #282828;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features ul li {
+    font-size: 1.2em;
+    margin: 15px 0;
+    color: #e0e0e0;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    color: white;
+    font-size: 1em;
+}
